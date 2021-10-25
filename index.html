@@ -114,28 +114,6 @@
                 Digital Design Studio
               </span>
               <div class="w-1/2 md:w-1/3 text-right flex-grow-0 flex justify-end items-center">
-                <showreel inline-template videoref="videoShowreel">
-                  <div class="relative z-40">
-                    <button @click="openShowreel" v-show="!showreelIsOpen"
-                      class="showreel-toggle__btn  showreel-toggle__btn--hero-header  flex items-center focus:outline-none text-grey-600 border-grey-600">
-                      <span class="showreel-toggle__icon lg:mr-5"></span>
-                      <span
-                        class="showreel-toggle__text hidden lg:block type-xs text-black uppercase tracking-widest">Play</span>
-                    </button>
-                    <transition name="slide-fade--long" mode="out-in">
-                      <div v-show="showreelIsOpen"
-                        class="fixed top-0 left-0 w-screen h-screen flex justify-center items-center">
-                        <div @click="closeShowreel"
-                          class="block bg-grey-800 opacity-95 w-full h-full absolute top-0 left-0"></div>
-                        <div class="showreel-container">
-                          <video :ref="videoref" loop="loop" class="w-full h-full object-cover" playsinline>
-                            <source src="assets/video/into-the-nature.mp4">
-                          </video>
-                        </div>
-                      </div>
-                    </transition>
-                  </div>
-                </showreel>
                 <div class="ml-16 lg:ml-22">
                   <div class="relative">
                     <button
