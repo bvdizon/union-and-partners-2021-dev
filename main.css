@@ -116446,7 +116446,37 @@ body.navigation-is-open .navigation-close__text {
 /* STYLE OVERRIDES FOR U&P 
 ================================*/
 
+/* Centers the home menu navigation vertically  */
 #header {
   display: flex;
   align-items: center;
 }
+
+/* Hover effects for each menu */
+.menu_item a {
+	transition: color ease-in 0.3s;
+  }
+
+  #menu_item_1 a:hover {
+	color: #FF003D;
+  }
+
+  #menu_item_2 a:hover {
+	color: #FFE500;
+  }
+
+  #menu_item_3 a:hover {
+	color: #589BFF;
+  }
+
+  #menu_item_4 a:hover {
+	color: #FF8440;
+  }
+
+  #menu_item_5 a:hover {
+	color: #E63D70;
+  }
+
+  #menu_item_6 a:hover {
+	color: #6BFFE4;
+  }
