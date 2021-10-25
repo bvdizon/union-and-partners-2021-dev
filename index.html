@@ -16,12 +16,21 @@
   <meta name="theme-color" content="#000000">
 
   <style>
-
+    #u_and_p--sticky {
+      position: fixed;
+      right: -100px;
+      top: 50%;
+      color: #67686A;
+      font-size: 25px;
+      z-index: 10000;
+      transform: rotate(-90deg)
+    }
   </style>
 
 </head>
 
 <body class="splash">
+  <div id="u_and_p--sticky">Digital Design Agency NYC</div>
   <div id="app">
     <div class="js-cursor custom-cursor">
       <span class="js-cursor-text custom-cursor__text"></span>
@@ -132,12 +141,12 @@
         </header>
 
         <div class="relative pt-20 md:pt-44" id="homepage-projects">
-          <div class="relative z-10" data-scroll data-scroll-sticky data-scroll-target="#homepage-projects">
-            <!-- <a href="projects.html"
+          <!-- <div class="relative z-10" data-scroll data-scroll-sticky data-scroll-target="#homepage-projects">
+            <a href="projects.html"
               class="hidden lg:block absolute top-20 right-0 type-3xl transform rotate-90 origin-right mr-5 -mt-8 fade-in">
               View all Projects
-            </a> -->
-          </div>
+            </a>
+          </div> -->
           <div class="space-y-20 md:space-y-40">
             <div class="" id="SingleBlock">
               <div class="lg:w-21/25">
