@@ -116480,3 +116480,15 @@ body.navigation-is-open .navigation-close__text {
   #menu_item_6 a:hover {
 	color: #6BFFE4;
   }
+
+
+/* Sticky Side */
+#u_and_p--sticky {
+	position: fixed;
+	right: -100px;
+	top: 50%;
+	color: #67686A;
+	font-size: 25px;
+	z-index: 10000;
+	transform: rotate(-90deg)
+  }
