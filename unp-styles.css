@@ -1,0 +1,30 @@
+/* Sticky Side */
+#u_and_p--sticky {
+  position: fixed;
+  right: -100px;
+  top: 50%;
+  color: #67686a;
+  font-size: 25px;
+  z-index: 10000;
+  transform: rotate(-90deg);
+}
+
+.unp--menu-subtitle {
+  font-size: 21px;
+  margin-top: 45px;
+  max-width: 750px;
+  line-height: 30px;
+
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
