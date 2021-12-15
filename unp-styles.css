@@ -115,3 +115,28 @@
     transform: translateY(0%);
   }
 }
+
+
+
+
+
+/* Animation on menu entrance 
+============================== */
+.unp_menu-animate {
+  padding-bottom: 1rem;
+  border-bottom: 5px solid transparent;
+  animation: menuAnimate 10s ease-in-out;
+  animation-delay: 20000;
+}
+
+
+@keyframes menuAnimate {
+  0% {
+    /* opacity: 0; */
+    border-bottom: 5px solid transparent;
+  }
+  100% {
+    /* opacity: 1; */
+    border-bottom: 5px solid #ff003d;
+  }
+}
