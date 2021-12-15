@@ -140,3 +140,31 @@
     border-bottom: 5px solid #ff003d;
   }
 }
+
+
+
+
+/* Revised Footer Styles
+============================== */
+.unp_footer-contact-info{
+  margin-top: 4rem;
+  color: #fff !important;
+  font-size: 1.2rem !important;
+
+  display: grid;
+  gap: 3rem;
+}
+
+.unp_footer-contact-info p {
+  margin-top: 3rem;
+}
+
+.unp_footer-contact-info p span {
+  display: block;
+}
+
+@media screen and (min-width:768px) {
+  .unp_footer-contact-info {
+    grid-template-columns: 1fr 2fr;
+  }
+}
